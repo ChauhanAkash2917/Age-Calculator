@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, red 0%, blue 100%);
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: linear-gradient(45deg, blue, red);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+input[type="date"],
+button {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="date"] {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: black;
+  background: white;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 30px;
+  appearance: none;
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+button {
+  background: red;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.result {
+  margin-top: 20px;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.error {
+  margin-top: 20px;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.2rem;
+  color: white;
+}
