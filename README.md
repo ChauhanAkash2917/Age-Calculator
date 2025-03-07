@@ -1,4 +1,4 @@
-🎂**[Age Calculator]**(https://chauhanakash2917.github.io/Age-Calculator/) 🗓️
+[**🎂Age Calculator**](https://chauhanakash2917.github.io/Age-Calculator/) 🗓️
 
 A simple and interactive age calculator built using HTML, CSS, and JavaScript. This tool allows users to calculate their exact age in years, months, and days based on their birthdate, with built-in error handling to ensure the entered data is valid.
 
